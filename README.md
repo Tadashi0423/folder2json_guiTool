@@ -6,6 +6,8 @@ This is a simple GUI tool built with CustomTkinter that allows users to select a
 
 這是一個使用 CustomTkinter 建置的簡單 GUI 工具，讓使用者選擇資料夾並將其結構（包括子資料夾和檔案）轉換成 JSON 格式。工具提供使用者友好的介面，用來瀏覽資料夾、生成 JSON、在可捲動文字區顯示，並保存到檔案。
 
+![GUI Screenshot](https://github.com/Tadashi0423/folder2json_guiTool/blob/main/folder2json_guiTool_sample.png?raw=true)
+
 ## Features / 功能
 
 - Browse and select a folder path.
@@ -83,10 +85,10 @@ If you want to build the .exe yourself, use PyInstaller:
 如果您想自己建置 .exe，請使用 PyInstaller：
 
 1. Install PyInstaller: `pip install pyinstaller`.
-2. Run: `pyinstaller --onefile --windowed --add-data "path/to/customtkinter/assets/themes;customtkinter/assets/themes" folder2json_guiTool.py` (replace the path accordingly).
+2. Run: `pyinstaller --onefile --windowed --add-data "path/to/customtkinter/assets/themes;customtkinter/assets/themes" folder2json_guiTool.py` (replace the part [path/to/customtkinter/assets/themes] to your path accordingly).
 
 1. 安裝 PyInstaller：`pip install pyinstaller`。
-2. 運行：`pyinstaller --onefile --windowed --add-data "path/to/customtkinter/assets/themes;customtkinter/assets/themes" folder2json_guiTool.py`（替換相應路徑）。
+2. 運行：`pyinstaller --onefile --windowed --add-data "path/to/customtkinter/assets/themes;customtkinter/assets/themes" folder2json_guiTool.py`（自行替換 [path/to/customtkinter/assets/themes] 為對應路徑）。
 
 ## License / 授權
 
@@ -95,3 +97,4 @@ This project is licensed under the MIT License.
 此項目採用 MIT 授權。
 
 ---
+
